@@ -1,0 +1,9 @@
+import "../css/navbar.css";
+function Navbar(){
+    return(
+        <nav className="navbar">
+            <h1 className="logo">SKYCAST🌤</h1>
+        </nav>
+    );
+}
+export default Navbar;
