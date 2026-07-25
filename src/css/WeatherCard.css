@@ -1,0 +1,26 @@
+.weather-card{
+    margin-top:30px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    text-align:center;
+    width:350px;
+}
+
+.weather-card h1{
+    font-size:60px;
+    color:#2563eb;
+}
+
+.weather-card h2{
+    margin-bottom:10px;
+}
+
+.weather-card p{
+    margin:8px 0;
+}
+
+.weather-details{
+    margin-top:20px;
+}
