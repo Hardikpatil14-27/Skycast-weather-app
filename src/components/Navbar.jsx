@@ -1,4 +1,4 @@
-import "../css/navbar.css";
+import "../css/Navbar.css";
 function Navbar(){
     return(
         <nav className="navbar">
@@ -6,4 +6,4 @@ function Navbar(){
         </nav>
     );
 }
-export default Navbar;
+export default Navbar;   

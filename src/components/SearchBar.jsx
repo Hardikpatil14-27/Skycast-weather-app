@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../css/Searchbar.css";
+import "../css/SearchBar.css";
 
-function SearchBar() {
+function SearchBar({ onSearch }) {
   const [city, setCity] = useState("");
 
   const handleSearch = (e) => {
@@ -12,8 +12,8 @@ function SearchBar() {
       return;
     }
 
-    // console.log(city);
-     alert(city);
+    onSearch(city);
+    setCity("");
   };
 
   return (
